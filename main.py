@@ -4,7 +4,6 @@ import re
 def main():
     webpage = requests.get("https://janpoonthong.github.io/portfolio/")
     webpage = webpage.text
-    # print(webpage)
     extracting(webpage)
 
 def extracting(webpage):
